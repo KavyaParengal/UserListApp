@@ -51,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 onPressed: () {
                   SharedPreferencesManager.login(context, userNameController.text.trim(), passwordController.text.trim());
-                  Navigator.pushNamed(context, RouteName.homePage);
+                  //Navigator.pushNamed(context, RouteName.homePage);
                 },
                 child: const Text('Login'),
               ),
